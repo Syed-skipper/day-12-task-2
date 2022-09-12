@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="column">
+          <h1>Event 1</h1>
+          <h4>Number of Seats Available : 23</h4>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="download.jpg" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body" id="body">
+                  <label for="name">Name :</label>
+                  <input type="text" id="name" class="name" /><br />
+                  <label for="email">E-mail :</label>
+                  <input type="email" id="email" class="email" /><br />
+                  <label for="number">Phone No :</label>
+                  <input type="number" id="number" class="number" /><br />
+                  <label for="seats">Number of Seats :</label>
+                  <input type="number" id="seats" class="seats" /><br />
+                  <label for="name2">Name of Attendee 2 :</label>
+                  <input type="text" id="name" class="name" /><br />
+                  <div id="button">
+                    <button
+                      type="submit"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Submit
+                    </button>
+                    &nbsp;
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
